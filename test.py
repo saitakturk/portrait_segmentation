@@ -1,7 +1,7 @@
 import argparse
 from modely import *
 import cv2
-import numpt as np
+import numpy as np
 import matplotlib.pyplot as plt
 from keras.models import load_model
 
