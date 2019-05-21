@@ -1,4 +1,5 @@
 # Human Portrait Segmentation
+<b>This is the project that I created. I used MobileNetV2 and UNet architecture to create human portrait segmentation. The pretrained model has 96.1% MIoU accuracy on test set.</b>
 * The pretrained model : [The Pretrained Model ](https://drive.google.com/open?id=1SWJ4CFEjez8EoZeGqeSkGgjiavIqXU3y)
 * To test pretrained model :<b> python test.py -i 'path_of_image.png' -m 'pretrained_model_path.hdf5'</b>
 * To run real-time on webcam :<b> python webcam.py -m 'pretrained_model_path.hdf5'</b>
